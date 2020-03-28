@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MoneyKeeper</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="app">
+        <div class="logo">
+            <span>money</span>
+            keeper
+        </div>
+        <div class="title">
+            Расчет дневного бюджета
+        </div>
+        <div class="main">
+            <div class="data">
+                <div class="choose-expenses">Введите обязательные разходы</div>
+
+                <div class="input-1">
+                    <input class="expenses-item" type="text" id="expenses_1" placeholder="Наимнование">
+                    <input class="expenses-item" type="text" id="expenses_2" placeholder="Цена">
+                </div>
+                <div class="input-2">
+                    <input class="expenses-item" type="text" id="expenses_3" placeholder="Наимнование">
+                    <input class="expenses-item" type="text" id="expenses_4" placeholder="Цена">
+
+                </div>
+
+                <button class="expenses-item-btn">Утвердить</button>
+
+                <div class="optionalexpensess">Введите необязательные расходы</div>
+                <div>
+                    <input  class="optional-item" id="optionalexpenses-value" type="text">
+                    <input  class="optional-item" id="optionalexpenses-value" type="text">
+                    <input  class="optional-item" id="optionalexpenses-value" type="text">
+                </div>
+                <button class="optionalexpenses-btn">Утвердить</button> 
+
+
+                <div class="count-budget">Расчет дневного бюджета</div>
+                <button class="count-budget-btn">Рассчитать</button>
+
+
+                <div class="choose-incone-label">Введите статьи возможного доходы</div>
+                <input class="choose-incone" type="text" id="incone">
+
+                <div class="checksavings"> Есть ли накопления:
+                    <input id="savings" type="checkbox">
+                </div>
+                <label class="label-1" for="sum">Сумма</label>
+                <input class="choose-sum" id="sum" type="text">
+                <label class="label-2" for="percent">Процент</label>
+                <input class="choose-percent" id="percent" type="text">
+
+
+                <div class="open">
+                    <button class="start" id="start">Начать расчет</button>
+                </div>
+
+            </div>
+
+            <div class="result">
+                <div class="result-table">
+                    <div class="result-aoutput">
+                        <div class="budget" >Доход:</div>
+                        <div class="budget-value"  id="res"></div>
+                    </div>
+                    <div class="result-aoutput">
+                        <div class="daybudget" >бюджет на 1 день:</div>
+                        <div class="daybudget-value"  id="res"></div>
+                    </div>
+                    <div class="result-aoutput">
+                        <div class="level" >Уровен дохода:</div>
+                        <div class="level-value"  id="res"></div>
+                    </div>
+                    <div class="result-aoutput">
+                        <div class="expenses" >Обязительные расходы:</div>
+                        <div class="expenses-value"  id="res"></div>
+                    </div>
+                    <div class="result-aoutput">
+                        <div class="optionalexpenses" >возможные траты:</div>
+                        <div class="optional-value"  id="res"></div>
+                    </div>
+                    <div class="result-aoutput">
+                        <div class="incone" >Дополнительный доход:</div>
+                        <div class="incone-value"  id="res"></div>
+                    </div>
+                    <div class="result-aoutput">
+                        <div class="monthsavings" >Накапления за 1 месяц:</div>
+                        <div class="monthsavings-value"  id="res"></div>
+                    </div>
+                    <div class="result-aoutput">
+                        <div class="yearsavings">Накапления за 1 год:</div>
+                        <div class="yearsavings-value"  id="res"></div>
+                    </div>
+
+                </div>
+                <div class="time-data">
+                    <div class="year">
+                        год:
+                        <input class="year-value" type="text" readonly>
+                    </div>
+                    <div class="month">
+                         Месяц:
+                        <input class="month-value" type="text" readonly>
+                    </div>
+                    <div class="day">
+                        День:
+                        <input class="day-value" type="text" readonly>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
