@@ -1,0 +1,145 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.logo{
+    height: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+span{
+    color: orange;
+    font-weight: 700;
+}
+
+.title{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 700;
+    background-color: oldlace;
+}
+.main{
+    display: flex;
+    background-color:oldlace;
+    height: 100vh;
+}
+.choose-expenses{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    font-weight: 700;
+}
+.expenses-item{
+    width: 220px;
+    margin-top: 10px;
+}
+
+.expenses-item-btn{
+  margin-top: 10px;
+  background-color: orange;
+  color: #ffffff;
+  margin-left: 180px;
+ 
+}
+.optionalexpensess{
+    margin-left: 120px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.optionalexpenses-item{
+    margin-top: 20px;
+    width: 145px;
+}
+
+.optionalexpenses-btn{
+    margin-top: 10px;
+    background-color: orange;
+    color: #ffffff;
+    margin-left: 180px;
+}
+.count-budget{
+    margin-left: 130px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.count-budget-btn{
+    margin-top: 10px;
+    background-color: orange;
+    color: #ffffff;
+    margin-left: 180px;
+}
+
+.choose-incone-label{
+    margin-left: 120px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.choose-incone{
+width: 400px;
+margin-left: 30px;
+
+}
+.checksavings{
+   margin-left: 150px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-weight: 700;
+}
+.label-1{
+    font-weight: 700;
+}
+.label-2{
+    font-weight: 700;
+}
+.start{
+    margin-top: 30px;
+    background-color: orange;
+    color: #ffffff;
+    margin-left: 180px;
+}
+
+.data{
+width: 745px;
+padding-left: 100px;
+}
+.result{
+width: 500px;
+height: 55vh;
+margin-top: 120px;
+background-color: #ffffff;
+}
+
+.result-table{
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.time-data{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+   
+}
+.year-value{
+    width: 70px;
+    padding-left: 40px;
+}
+.month-value{
+    width: 70px;
+    padding-left: 40px;
+}
+.day-value{
+    width: 70px;
+    padding-left: 40px;
+}
+#res{
+    margin-left: 15px;
+    color: rgba(0, 128, 64, 0.658);
+}
+
+.result-aoutput{
+    display: flex;
+    margin-top: 25px;
+}
